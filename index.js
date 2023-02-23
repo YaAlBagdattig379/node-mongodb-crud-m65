@@ -12,7 +12,6 @@ app.use(express.json());
 
 // user: dbuser02
 // password: PCU5iuAE6Uq6qysH
-
 const uri = "mongodb+srv://dbuser02:PCU5iuAE6Uq6qysH@cluster0.xw2abv6.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
