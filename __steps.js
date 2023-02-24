@@ -1,4 +1,5 @@
-/*              Create a node server with 6 steps
+/*
+              Create a node server with 6 steps
  *-----------------------------------------------------            
             i) create  folder
             ii) npm init
@@ -16,8 +17,17 @@
             v) database > connect > code copy 
  * 
  *------------------------------------------------------- 
- *             Crud operation
+ *             Crud Operation
  * ------------------------------------------------------
  *           i) node mongodb crud > fundamentals
  *           ii create async run function 
+ * ------------------------------------------------------
+ *
+ *          Integrate sending data from client to server
+ * ------------------------------------------------------
+ *       1. Client side : create form
+ *       2. on submit get form data and create user object
+ *       3. on server : Create user Post method to receive data on the backend
+ *       4. on client side : set fetch with POST , headers, body
+ *       5. make sure you return  a json from the POST API
  */
