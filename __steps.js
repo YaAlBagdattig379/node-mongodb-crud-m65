@@ -2,13 +2,13 @@
               Create a node server with 6 steps
  *-----------------------------------------------------            
             i) create  folder
-            ii) npm init
+            ii) npm init -y
             iii) npm i express cors mongodb
             iv) script-dev: nodemon index.js
             v) create index.js
             vi) use this 5 steps to create a node server
  * -----------------------------------------------------
- *              Create Atlas Account 
+ *              Create MongoDB Atlas Account 
  *-------------------------------------------------------            
             i) sign up by google access
             ii) create cluster
@@ -37,8 +37,8 @@
  *        1. create a get API on the server side
  *        2. create a query oject
  *        3. collection.find(query)
- *        4.cursor.toArray() 
- *        5.return the result 
+ *        4. cursor.toArray() 
+ *        5. return the result 
  *        6. from client useEffect and display like you have done before 
  * 
  * -----------------------------------------------------------
