@@ -28,7 +28,7 @@ async function run(){
             const users = await cursor.toArray();
             res.send(users);
         }) 
-        // get user for 
+        // get user for delete
         app.get('/user/:id',async(req,res)=>{
             const id = req.params.id;
             const query = {_id: new ObjectId(id)};
